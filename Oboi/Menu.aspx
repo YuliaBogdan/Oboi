@@ -18,6 +18,7 @@
         <div>
             <asp:Panel ID="Panel1" runat="server" BackColor="#CCCCCC" BorderColor="#999999" Height="560px" Width="900px">
                 <asp:Image ID="Image2" runat="server" Height="558px" Width="200px" />
+                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:WallpapersConnectionString %>" ProviderName="<%$ ConnectionStrings:WallpapersConnectionString.ProviderName %>" SelectCommand="SELECT [BalanceSP] FROM [Photoes]"></asp:SqlDataSource>
                 <asp:Image ID="Image3" runat="server" Height="558px" Width="500px" />
                 <asp:Image ID="Image1" runat="server" Height="558px" Width="200px" />
             </asp:Panel>
