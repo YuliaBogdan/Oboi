@@ -99,6 +99,7 @@
     <Content Include="App_Data\Wallpapers_log.ldf">
       <DependentUpon>Wallpapers.mdf</DependentUpon>
     </Content>
+    <Content Include="DataBaseWallpapers.aspx" />
     <Content Include="Menu.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
@@ -115,11 +116,19 @@
     <None Include="Resources\3554-6.jpg" />
     <None Include="Resources\3553-6.jpg" />
     <Content Include="Style.css" />
+    <Content Include="Style2.css" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataBaseWallpapers.aspx.cs">
+      <DependentUpon>DataBaseWallpapers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DataBaseWallpapers.aspx.designer.cs">
+      <DependentUpon>DataBaseWallpapers.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Menu.aspx.cs">
       <DependentUpon>Menu.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -131,6 +140,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_LocalResources\" />
+    <Folder Include="Scripts\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx" />

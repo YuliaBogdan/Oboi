@@ -11,9 +11,9 @@
 <body>
     <form id="form1" runat="server">
      <div id="header">
-        <a href="#">Каталог обоев</a>/
+        <a href="DataBaseWallpapers.aspx">Каталог обоев</a>/
 		<a href="#">Каталог комнат</a>/
-        <a href="#">Подобрать обои</a>		
+        <a href="Menu.aspx">Подобрать обои</a>		
      </div>
         <div>
             <asp:Panel ID="Panel1" runat="server" BackColor="#CCCCCC" BorderColor="#999999" Height="560px" Width="900px">
